@@ -1,3 +1,18 @@
+/*
+Write a program whose input is two integers and whose output is the two integers swapped. Place the values in an array, where x is position 0 and y is position 1.
+
+Ex: If the input is:
+
+3 8
+then the output is:
+
+8 3
+Your program must define and call a method:
+public static void swapValues(int[] values)
+
+Dalton Murray
+*/
+
 import java.util.Scanner;
 
 public class LabProgram {
