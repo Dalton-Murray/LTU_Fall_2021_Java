@@ -1,0 +1,446 @@
+Which XXX and YYY correctly complete the code to find the maximum score? Choices are in the form XXX / YYY.
+
+int[] scores = {43, 24, 58, 92, 60, 72};
+
+int maxScore;
+
+maxScore = scores[0];      
+
+for (XXX) {
+
+  if (num > maxScore) {
+
+      YYY;
+
+   }
+
+}
+
+int num: scores / maxScore = num
+---
+Given only int variables a and b, which is a valid expression?
+
+a + -2
+---
+Which is a correct scientific notation for the floating-point literal: 0.00001
+
+1.0e-5
+---
+How many times does the while loop execute for the given input values of -1 4 0 9?
+
+userNum = 3;
+
+while (userNum > 0) {
+
+   // Do something
+
+   // Get userNum from input
+
+}
+
+1
+---
+Which XXX and YYY will loop as long as the input is an integer less than 100? Choices are in the form XXX / YYY.
+
+w = scnr.nextInt();
+
+while (XXX) {
+
+  // Do something
+
+  YYY;
+
+}
+
+w < 100  /   w = scnr.nextInt()
+---
+What is the output?
+
+int n;
+
+for (n = 0; n < 10; n = n + 3) {
+
+   System.out.print(n + " ");
+
+}
+
+0 3 6 9
+---
+What is the output, if the input is 3 2 4 5? All variables are integers.
+num = scnr.nextInt();
+
+for (i = 0; i < num; ++i) {
+
+   curr = scnr.nextInt();
+
+   System.out.print(curr);
+
+}
+
+What is the final value of y?
+
+int x = 6;
+
+int y = 2; 
+
+if (x < 10) {
+
+   if (y < 5) {
+
+      y = y + 1;
+
+   }
+
+   else { 
+
+      y = 7; 
+
+   }
+
+}
+
+else {
+
+   y = y + 10;
+
+}
+
+3
+---
+What does this code output?
+
+System.out.print("I ");
+
+System.out.println("want pie.");
+
+I want pie.
+---
+Given that integer array x has elements 5, 10, 15, 20, what is the output?
+
+int i;
+
+for (i = 0; i < 4; ++i) {
+
+   System.out.print(x[i] + x[i + 1]); 
+
+}
+
+Out of range access
+---
+What value of x outputs "Junior"?
+
+if (x < 56) {
+
+   // Output "Sophomore"
+
+}
+
+else if (x > 56) {
+
+   // Output "Senior"
+
+}
+
+else {
+
+   // Output "Junior"
+
+}
+
+Value 56
+---
+For the string "on time", what character is at index 3?
+
+t
+---
+A programmer compares x == y, where x and y are doubles. Many different values are expected for x and y. For values that a programmer expects to be equal, the comparison will _____ .
+
+sometimes evaluate to true, sometimes to false, depending on the values
+---
+What is the output if count is 4?
+
+for (i = count; i > 0; --i) {
+
+   // Output i
+
+}
+
+4321
+---
+What is the ending value of y? Math.pow(u, v) returns u raised to the power of v.
+
+x = 2.0;
+
+y = 3.0;
+
+y = Math.pow(Math.pow(x, y)) + 1.0;
+
+
+Error: The compiler complains about calling pow without the correct number of arguments
+---
+Which of the following statements is false?
+
+Program execution begins at main().
+
+A program executes one statement at a time.
+
+Each statement ends with a period.
+
+An output statement outputs a value to the screen.
+
+Each statement ends with a period
+---
+What code for XXX, YYY correctly swaps a and b? Choices are written as XXX / YYY.
+
+XXX;
+
+a = b;
+
+YYY;
+
+b = tmp;
+
+tmp = a / (nothing)
+---
+A program should compute two times x. Which statement has a logic error?
+y = x + x;
+
+y = 2 * x;
+
+y = x * x;
+
+y = x * 2;
+
+y = x * x
+---
+In what year was the first public release of Java?
+
+1995
+---
+What is the output?
+
+char letter1;
+
+char letter2;
+
+letter1 = 'p';
+
+while (letter1 <= 'q') {
+
+   letter2 = 'x';
+
+   while (letter2 <= 'y') {
+
+      System.out.print("" + letter1 + letter2 + " ");
+
+      ++letter2;
+
+   }
+
+   ++letter1;
+
+}
+
+px py qx qy
+---
+A programmer intended to compute (a AND b) OR c, and wrote the following code, which sometimes yields incorrect output. Why?
+
+<pre><code>c | (a & b)</code></pre>
+
+The bitwise operators should be replaced by logical operators
+---
+The numNegatives variable counts the number of negative values in the array userVals. What should numNegatives be initialized to?
+
+int[] userVals = new int[20];
+
+int i;
+
+int numNegatives;
+
+numNegatives = XXX; 
+
+for (i = 0; i < 20; ++i) {
+
+   if (userValues[i] < 0) {
+
+      numNegatives = numNegatives + 1;
+
+   }
+
+}
+
+0
+---
+Which best describes what is output? Assume v is a large array of ints.
+
+int i;
+
+int s;
+
+s = v[0];
+
+for (i = 0; i < N_SIZE; ++i) {
+
+   if (s > v[i]) {
+
+      s = v[i];
+
+   }
+
+}
+
+System.out.println(s);
+
+min value in v
+---
+Three sock types A, B, C exist in a drawer. Pulled socks are kept and not returned. Which is true?
+
+If the first three pulls are different socks, only one more pull is needed for a match
+---
+Which regular loop corresponds to this enhanced for loop?
+
+char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+
+for (char item: vowels) {
+
+   System.out.println(item);
+
+}
+
+for (int i = 0; i < vowels.length; ++i) {
+
+   System.out.println(vowels[i]);
+
+}
+
+---
+Given str = "Cat", what is the result of this statement?
+
+str.charAt(1) = "ab";
+
+Error: Assigning a character with a string is not allowed
+---
+A loop should output 1 to n. If n is 5, the output is 12345. What should XXX and YYY be? Choices are in the form XXX / YYY.
+
+n = scnr.nextInt();
+
+for (XXX; i++) {
+
+   System.out.println(YYY);
+
+}
+
+
+i = 0; i < n  /  i + 1
+---
+What is the output for x = 15?
+
+switch (x) {
+
+   case 10:
+
+      // Output: "First "
+
+      break;
+
+   case 20:
+
+      // Output: "Second "
+
+      break;
+
+   default:
+
+      // Output: "No match "
+
+      break;
+
+}
+
+No match
+---
+What is the output?
+
+public static void main(String[] args) {
+
+   for (int i = 0; i < 3; ++i) {
+
+      System.out.print(i);
+
+   }
+
+   System.out.print(i);
+
+}
+
+
+Error: The variable i is not declared in the right scope
+---
+Which value of x results in short circuit evaluation, causing y < 4 to not be evaluated?
+
+<pre><code>(x >= 7) && (y < 4)</code></pre>
+
+6
+---
+RAM is an abbreviation that stands for:
+
+Random Access Memory
+---
+Which XXX will output only values up to 3? i is an int.
+
+for (i = 1; i < 10; i++) {    
+
+   System.out.print(i + " ");  
+
+   XXX { 
+
+      break; 
+
+   } 
+
+}
+
+if (i == 3)
+---
+The enhanced for loop _____
+
+prevents incorrectly accessing elements outside of an array's range
+---
+What is y's ending value?
+
+int x;
+
+int y = 0;
+
+x = scnr.nextInt();
+
+if (x = 20) {
+
+   y = 3;
+
+}
+
+Error: Compiler will not allow the expression x = 20
+---
+Grover Cleveland served as president of the United States from 1885 to 1889 and from 1893 to 1897. Which expression correctly detects this range?
+
+(x >= 1885 && x <= 1889) || (x >= 1893 && x <= 1897)
+---
+C++ is _____.
+
+derived from C
+---
+myChar is a character variable and is the only declared variable. Which assignment is valid?
+
+myChar = 't';
+---
+What does a clock do?
+
+Determines the rate of execution for a processor's instructions
+---
+If the input sets int x with 5 and int y with 7, what is the ending value of z? z is declared as a boolean.
+
+z = (x > y);
+
+False
+---
